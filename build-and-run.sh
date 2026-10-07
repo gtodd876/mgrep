@@ -5,4 +5,5 @@ clang++ -std=c++20 -Wall -Wextra -Wpedantic -Wconversion -g \
   -fsanitize=address,undefined \
   -o mgrep mgrep.cpp
 
-exec ./mgrep
+
+exec "./mgrep test"
